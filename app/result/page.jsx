@@ -76,7 +76,7 @@ export default function ResultsPage() {
         
           <Link href="/" passHref>
           <div style={buttonStyle} className="p-2">
-            <img src="/assets/home.png" alt="Trophy" width={24} height={24} />
+            <img src="/assets/home.png" alt="home" width={24} height={24} />
           </div>
           </Link>
      </div>

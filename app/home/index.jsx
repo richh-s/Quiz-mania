@@ -68,9 +68,11 @@ export default function StartPage() {
   <div style={{ ...buttonStyle, borderRadius: '5px' }} className="p-2">
     <img src="/assets/volume.png" alt="Sound" width={24} height={24} />
   </div>
+  <Link href='/winner' passHref>
   <div style={{ ...buttonStyle, borderRadius: '5px' }} className="p-2">
     <img src="/assets/trophy.png" alt="Trophy" width={24} height={24} />
   </div>
+ </Link> 
 </div>
 
       </div>
