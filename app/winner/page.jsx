@@ -42,6 +42,9 @@ const WinnersPage = () => {
          style={{
            backgroundImage: `url('/assets/pattern.png'), radial-gradient(94.31% 50% at 50% 50%, #007359 0%, #006C54 35.94%, #024B3B 100%)`,
            backgroundSize: 'cover',
+           fontFamily:'VisbyRoundCF',
+           fontWeight: 'bold',
+      
          }}>
 
       {/* Logo */}

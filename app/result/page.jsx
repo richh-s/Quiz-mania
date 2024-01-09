@@ -1,3 +1,5 @@
+'use client'
+
 import React from 'react';
 import Link from 'next/link';
 export default function ResultsPage() {
@@ -5,6 +7,7 @@ export default function ResultsPage() {
         background: 'linear-gradient(180deg, #FC830E 0%, #D24E02 100%)',
         boxShadow: '0px 1px 0px 3px #521B03',
         border: '1px solid #FFC10A',
+        borderRadius: '5px',
       };
     const textStyle={
         background: 'linear-gradient(180deg, #FC830E 17.55%, #D24E02 89.36%)',
@@ -17,6 +20,7 @@ export default function ResultsPage() {
       style={{
         backgroundImage: "url('/assets/pattern.png'), radial-gradient(94.31% 50% at 50% 50%, #007359 0%, #006C54 35.94%, #024B3B 100%)",
         backgroundSize: 'cover',
+        fontFamily:'VisbyRoundCF'
       }}
     >
       {/* Logo and Score */}

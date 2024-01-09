@@ -3,20 +3,25 @@
 @import 'tailwindcss/utilities';
 
   @font-face {
-    font-family: 'VisbyRoundCF';
-    src: url('../public/font/VisbyRoundCF-Bold.otf') format('otf'),
-         url('../public/font/VisbyRoundCF-DemiBold.otf') format('otf'),
-         url('../public/font/VisbyRoundCF-ExtraBold.otf') format('otf'),
-         url('../public/font/VisbyRoundCF-Heavy.otf') format('otf'),
-         url('../public/font/VisbyRoundCF-ExtraLight.otf') format('otf'),
-         url('../public/font/VisbyRoundCF-Regular.otf') format('otf'),
-         url('../public/font/VisbyRoundCF-Medium.otf') format('otf');
-        
+    font-family: 'VisbyRoundCF-Regular';
+    src:url('../public/font/VisbyRoundCF-Regular.otf') format('otf');
     font-weight: normal;
     font-style: normal;
   }
   
-
+  @font-face {
+    font-family: 'VisbyRoundCF-Bold';
+    src: url('/public/font/VisbyRoundCF-Bold.otf') format('woff');
+    font-weight: bold;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'VisbyRoundCF-light';
+    src: url('../public/font/VisbyRoundCF-Light.otf') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
   body {
     font-family: 'VisbyRoundCF', sans-serif;
  

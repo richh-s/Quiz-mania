@@ -34,6 +34,7 @@ export default function StartPage() {
         display: 'flex',
         flexDirection: 'column',
         justifyContent: 'space-between',
+        fontFamily:"VisbyRoundCF"
       }}
       className="p-4 text-center"
     >
@@ -64,7 +65,7 @@ export default function StartPage() {
    
         {/* Icon Buttons */}
       
-<div className="flex justify-center space-x-16 mt-6">
+<div className="flex justify-center space-x-12 mt-6">
   <div style={{ ...buttonStyle, borderRadius: '5px' }} className="p-2">
     <img src="/assets/volume.png" alt="Sound" width={24} height={24} />
   </div>
